@@ -1,0 +1,53 @@
+
+body{
+
+    font-family: 'Lato',sans-serif;
+    font-family: 'open Sans',sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    background: #FD6E0A;
+    border-radius: 5px;
+    width: 150px;
+height: 64px;
+flex-shrink: 0;
+color: var(--White-Color, #FFF);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 15px 35 px;
+border: 0;
+}
+/* nav related stles */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    color: var(--Dark-01, #181818);
+
+
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
